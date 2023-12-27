@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 140px;
+}
+.box1{
+    background-color: #FAA000;
+    order: 3;
+}
+.box2{
+    background-color:#DF4800 ;
+    order:1 ;
+}
+.box3{
+    background-color:#CC1315 ;
+    order: -1;
+}
+.box4{
+    background-color:#BCC1C6 ;
+    order: 2;
+}
+.box5{
+    background-color:#7E8A8C ;
+    order: 0;
+}
+.boxes{
+    padding: 2% 7%;
+    color: whitesmoke;
+}
+.previous{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 100px;
+}
+.boxinput1{
+    background-color: #FAA000;
+    
+}
+.boxinput2{
+    background-color:#DF4800 ;
+    
+}
+.boxinput3{
+    background-color:#CC1315 ;
+    
+}
+.boxinput4{
+    background-color:#BCC1C6 ;
+    
+}
+.boxinput5{
+    background-color:#7E8A8C ;
+
+}
+.boxesinput{
+    padding: 2% 7%;
+    color: whitesmoke;
+}
